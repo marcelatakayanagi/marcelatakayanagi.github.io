@@ -7,8 +7,8 @@ body
 .menu-principal 
 {
     width: 100%;
-    background-color: rgb(112, 89, 131);
-    height: 170px;
+    background-color:#FFE3E3;
+    height: 200px;
 }
 main
 {
@@ -17,10 +17,10 @@ main
     float: left;
     position: relative;
 }
-.profile-pic
+.logo
 {
     float: left;
-    padding:20px;
+    padding:25px;
     width: 70%;
 }
 .social-media ul li
