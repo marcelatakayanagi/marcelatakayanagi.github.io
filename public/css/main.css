@@ -11,8 +11,8 @@ ul
 .menu-principal 
 {
     width: 100%;
-    background-color:#FFE3E3;
-    height: 200px;
+    background-color:#E3AC6F;
+    height: 80px;
 }
 main
 {
@@ -24,8 +24,9 @@ main
 .logo
 {
     float: left;
-    padding:25px;
-    width: 70%;
+    padding-top:5px;
+    padding-left: 180px;
+    width: 50%;
 }
 .social-media ul li
 {
@@ -37,32 +38,33 @@ main
 .social-media
 {
     padding-top: 20px;
-    width: 20%;
+    padding-left: 214px;
+    width: 30%;
     float: right;
 }
 .header-2
 {
     background-color: snow;
+    height: 58px;
     width: 980px;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 20px;
 }
 .menu-urls
 {
-    height: 80px;
-    border-bottom: 3px solid rosybrown;
+    height: 60px;
+    border-bottom: 2px solid #DDC9BE;
 
 }
 .menu ul li 
 {
     margin-left: 15px;
     display: inline-block;
-    color: thistle;
+    color: #F96C85;
 }
 .menu ul li a
 {
-
-    color: thistle;
+    color: #F96C85;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -80,12 +82,12 @@ main
 }
 .search input
 {
-    
     padding-left: 12px;
-    margin-top: 2px;
-    height: 35px;
+    margin:2px;
+    height: 20px;
     width: 190px;
     text-align: left;
+    border: 1px solid #DDC9BE;
 
 }
 .colunm-100
