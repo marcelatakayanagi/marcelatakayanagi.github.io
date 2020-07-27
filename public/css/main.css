@@ -2,27 +2,13 @@ body
 {
     width: 100%;
     height: 100%;
-    margin: 0 auto;
-    padding-top: 75px;
 }
 main
 {
-    margin: 0 auto;
-    width: 100%;
+    height: 100%;
+    width: 98.8%;
     float: left;
     position: relative;
-}
-.principal-menu /*top header*/
-{
-    top: 0;
-    padding-top: 0;
-    position: fixed;
-    left: 0;
-    margin: auto;
-    margin-top: 0;
-    width: 100%;
-    background-color:#283447;
-    height: 100px;
 }
 .logo
 {
@@ -31,12 +17,13 @@ main
     padding-left: 60px;
     width: 30%;
 }
-.menu /*about|skills|contact*/
+.menu /*about|project|contact*/
 {
     padding-top: 30px;
     padding-left: 400px;
     width: 70%;
-    float: left;
+    color: #E3AC6F;
+    display: inline-block;
 }
 
 .content-1
@@ -48,17 +35,15 @@ main
 {
     background-color: #33DBAC;
     width: 100%;
-    height: 300px;
-    margin-top: 25px;
+    height: 315px;
     text-align: center;
     border-bottom: 1px dotted #283447;
 
 }
 .photo
 {
-    width: 980px;
+    width: 100%;
     padding-top: 50px;
-    padding-left: 300px;
 }
 .skills
 {
@@ -66,8 +51,7 @@ main
 }
 .skills-icon
 {
-    width: 980px;
-    margin-left: 145px;
+    width: 100%;
     text-align: center;
 }
 .contact
@@ -79,9 +63,49 @@ main
 .social-media
 {
     background-color:  #283447;
-    height: 60px;
-    width: 100%;
+    height: 68px;
+    width: 101.1%;
     padding-top: 25px;
-    padding-left: 620px;
-    align-items: center;
+    padding-left: 49%;
 }
+
+.content-about
+{
+    width: 100%;
+}
+
+.text-about-me
+{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  text-align: justify;
+}
+
+.content-education
+{
+    width: 100%;
+}
+.education
+{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  text-align: justify;
+}
+
+.content-contact
+{
+    width: 100%;
+}
+.contact
+{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  text-align: justify;
+}
+
